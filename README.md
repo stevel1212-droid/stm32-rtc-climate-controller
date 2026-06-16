@@ -4,6 +4,10 @@ Kicad project (Hardware) and Platform IO project (Firmware) of an STM32-based bo
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/e3338b9d-6462-41b1-b807-ba323c85105a" />
 
+I've ordered the PCBA (SMT assembly only) from JLCPCB and it costs around 62$  for 2 assembled and 3 empty boards with  coupon:
+<img width="1375" height="673" alt="image" src="https://github.com/user-attachments/assets/02cd224a-2091-4769-858d-9b568b59eec3" />
+
+
 
 ### 🛠️ Tools & Plugins Used:
 
