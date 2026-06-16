@@ -41,13 +41,15 @@ Follow these steps to flash the firmware and configure the board for the first t
 ### 3. PlatformIO Configuration (`platformio.ini`)
 Open your `platformio.ini` file and adjust the upload settings. You need to enable the ST-Link protocol and comment out the serial configurations:
 
-ini
-Set the upload protocol to ST-Link:
+```ini
+# Set the upload protocol to ST-Link
 upload_protocol = stlink
 
-Comment out the serial upload lines:
+# Comment out the serial upload lines
 ; upload_protocol = serial
 ; upload_port = COM3
+```
+
 
 ### 4. Flashing the Firmware
 Plug the ST-Link V2 debugger into your computer's USB port.
