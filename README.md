@@ -70,7 +70,13 @@ Open the Serial Monitor in PlatformIO.
 Send the current time and date through the serial terminal using the following exact format: HH:MM:SS DD:MM:YYYY (e.g., 14:30:00 15:06:2026).
 
 
-### 🎁 Bonus: Serial Flashing (Alternative Method)Note: This option is only available after the initial first-time flash.If you prefer to flash future firmware updates directly via USB (Serial) instead of using the ST-Link debugger, follow these steps:Set the BOOT0 pin/jumper to a logic high state (3.3V).Press the RESET button on the board to enter the embedded bootloader.In your platformio.ini file, switch the comments to enable serial upload:Ini, TOML; upload_protocol = stlink
+### 🎁 Bonus: Serial Flashing (Alternative Method)
+Note: This option is only available after the initial first-time flash.If you prefer to flash future firmware updates directly via USB (Serial) instead of using the ST-Link debugger, follow these steps:
+Set the BOOT0 pin/jumper to a logic high state (3.3V).
+Press the RESET button on the board to enter the embedded bootloader.
+In your platformio.ini file, switch the comments to enable serial upload:
+Ini, TOML; upload_protocol = stlink
 upload_protocol = serial
 upload_port = COM3
-Click the Upload button in PlatformIO.⚠️ IMPORTANT: Once the upload is finished, you must set the BOOT0 pin back to a logic low state (GND) and press the RESET button again. Otherwise, the newly uploaded program will not execute upon boot.
+Click the Upload button in PlatformIO.
+⚠️ IMPORTANT: Once the upload is finished, you must set the BOOT0 pin back to a logic low state (GND) and press the RESET button again. Otherwise, the newly uploaded program will not execute upon boot.
