@@ -35,7 +35,9 @@ Follow these steps to flash the firmware and configure the board for the first t
 * Ensure that both **BOOT0** and **BOOT1** jumpers/pins are set to a **logic low** state (GND).
 
 ### 2. Connecting the Debugger
-* Connect your **ST-Link V2** debugger to the **H1** connector on the board using the following pins: **SWDIO**, **SWCLK**, **3.3V**, and **GND**.
+* Connect your **ST-Link V2** debugger to the **H1** connector on the board using the following pins: **SWDIO**, **SWCLK**, **3.3V**, and **GND**:
+<img width="1077" height="552" alt="image" src="https://github.com/user-attachments/assets/ea07a13d-750f-4b44-b257-1e927bea0908" />
+
 * ⚠️ **CRITICAL:** Do NOT connect the USB-C cable to the board while the debugger is connected and powering the system.
 
 ### 3. PlatformIO Configuration (`platformio.ini`)
