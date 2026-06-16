@@ -81,7 +81,6 @@ follow these steps:
 ```Ini
 ; upload_protocol = stlink
 upload_protocol = serial
-upload_port = COM3
 ```
 * Click the Upload button in PlatformIO.
-* ⚠️ IMPORTANT: Once the upload is finished, you must set the BOOT0 pin back to a logic low state (GND) and press the RESET          button again. Otherwise, the newly uploaded program will not execute upon boot.
+⚠️ IMPORTANT: Once the upload is finished, you must set the BOOT0 pin back to a logic low state (GND) and press the RESET          button again. Otherwise, the newly uploaded program will not execute upon boot.
