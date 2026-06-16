@@ -1,6 +1,6 @@
 # stm32-rtc-climate-controller
 
-KiCad project of an STM32-based board climate controller utilizing an RTC module for time-scheduled environmental reading of temperature/humidity and optional small relay control.
+KIcad project (Hardware) and Platform IO project (Firmware) of an STM32-based board climate controller utilizing an RTC module for time-scheduled environmental reading of temperature/humidity with SHT30 sensor and optional small relay for control.
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/e3338b9d-6462-41b1-b807-ba323c85105a" />
 
